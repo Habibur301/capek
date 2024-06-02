@@ -8,6 +8,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array, load_img
 import os
 import requests
+from flask import jsonify
 
 app = Flask(__name__)
 app.secret_key = '6LdhAeYpAAAAAKfhQ9GP6zirlMQZuZQCs-W93Z-T'
