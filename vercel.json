@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "api/applikasi.py",
+        "src": "applikasi.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "api/applikasi.py"
+        "dest": "applikasi.py"
       }
     ]
   }
