@@ -8,7 +8,6 @@ click==8.1.7
 colorama==0.4.6
 Flask==3.0.3
 Flask-Login==0.6.3
-flask-ngrok==0.0.25
 Flask-ReCaptcha==0.4.2
 Flask-SQLAlchemy==3.1.1
 Flask-WTF==1.2.1
@@ -29,6 +28,7 @@ markup==0.2
 MarkupSafe==2.1.5
 mdurl==0.1.2
 ml-dtypes==0.3.2
+mysql-connector-python==8.4.0
 namex==0.0.8
 numpy==1.26.4
 opencv-python==4.9.0.80
@@ -40,7 +40,7 @@ pandas==2.2.2
 pillow==10.3.0
 protobuf==4.25.3
 Pygments==2.18.0
-PyMySQL==1.1.1  
+PyMySQL==1.1.1
 python-dateutil==2.9.0.post0
 pytz==2024.1
 requests==2.31.0
