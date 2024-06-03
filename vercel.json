@@ -1,16 +1,16 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "applikasi.py",
-        "use": "@vercel/python"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "applikasi.py"
-      }
-    ]
-  }
-  
+  "version": 2,
+  "builds": [
+    {
+      "src": "applikasi.py",
+      "use": "@vercel/python",
+      "config": { "runtime": "python3.10" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "applikasi.py"
+    }
+  ]
+}
